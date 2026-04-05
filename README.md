@@ -2,25 +2,6 @@
 
 Backend project nho gon quan ly sach thu vien voi FastAPI + SQLite.
 
-## 1) Tao virtual environment
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
-## 2) Cai dependencies
-
-```powershell
-pip install -r requirements.txt
-```
-
-## 3) Chay server
-
-```powershell
-uvicorn app.main:app --reload
-```
-
 Mo:
 - API root: http://127.0.0.1:8000/
 - Swagger docs: http://127.0.0.1:8000/docs
@@ -39,14 +20,3 @@ app/
   main.py
 ```
 
-## Endpoints mau
-
-- GET `/`
-- GET `/health`
-- POST `/books`
-- GET `/books`
-- GET `/books/{book_id}`
-- PUT `/books/{book_id}`
-- DELETE `/books/{book_id}`
-- POST `/books/{book_id}/borrow`
-- POST `/books/{book_id}/return`
