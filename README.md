@@ -50,9 +50,3 @@ app/
 - DELETE `/books/{book_id}`
 - POST `/books/{book_id}/borrow`
 - POST `/books/{book_id}/return`
-
-## Ghi chu
-
-- Du an nay khong can Docker va khong can MongoDB.
-- Database local la file `app.db` (SQLite).
-- Khi can scale, co the doi `DATABASE_URL` sang PostgreSQL.
