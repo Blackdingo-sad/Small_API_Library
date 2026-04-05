@@ -1,4 +1,4 @@
-# Library Books API (No Docker, No MongoDB)
+# Library Books API 
 
 Backend project nho gon quan ly sach thu vien voi FastAPI + SQLite.
 
